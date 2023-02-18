@@ -23,5 +23,5 @@ async function handleRequest(request) {
     }
   }
 
-  return Response.redirect(redirectUrl, 301)
+  return Response.redirect(redirectUrl, 307)
 }
